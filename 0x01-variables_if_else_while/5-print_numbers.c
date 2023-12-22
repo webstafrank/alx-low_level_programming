@@ -6,11 +6,15 @@ int main()
 
 	/*initializing an integer and setting the range of loop*/
 
-	for (n=0; n<10; n++)
-	{
-		printf("%d", n);
-		printf("\n");
-	}
+	for (n=0; n<=9; n++)
+	
+		{
+			printf("%d", n);
+	
+		}
+		
+		putchar('\n');
+			
 	return 0;
 
 }
