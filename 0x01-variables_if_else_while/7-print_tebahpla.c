@@ -6,7 +6,7 @@ int main()
 
 	/*creating variable of type char and looping thru ther alphabets*/
 
-		for (letter='z'; letter>='a'; letter++)
+		for (letter='z'; letter>='a'; letter--)
 					
 			putchar(letter);
 		

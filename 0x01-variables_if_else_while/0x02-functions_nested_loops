@@ -1,0 +1,14 @@
+/** aprogramthat prints _putchar followed by a new line*
+ *author: Franklyn Denish*/
+
+#include <stdio.h>
+
+int main(void)
+{
+	putchar("_putchar";)
+	
+	putchar('\n');	
+
+return (0);
+
+}
