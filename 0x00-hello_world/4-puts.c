@@ -1,7 +1,12 @@
 #include <stdio.h>
 
-int main() {
-	/*printing with puts*/
+int main(void)
+{	
+	/**
+	 * printing with puts
+	 * returns 0
+	 */
 	puts("programming is like building a multilingial puzzle\n");
-	return 0;
+	
+	return (0);
 }
