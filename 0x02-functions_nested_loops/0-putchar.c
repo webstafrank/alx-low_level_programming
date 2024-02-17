@@ -1,16 +1,19 @@
-/**program prints _putchar followed by a new line
- *
- * file: 0-putchar.c
- * Auth: Franklyn Denish*/
-
 #include "main.h"
-
+/**
+ * Description: printing a strng followed by a new line
+ * return 0
+ */
 int main(void)
 {
-	putchar("_putchar");
-
-	putchar('\n');
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 return (0);
 
 }
