@@ -1,9 +1,8 @@
-#include <stdio.h>
-
+#include<stdio.h>
 /**
- * main - prints an to the stdout using puts
- *
- * return: 0
+ * main - Entry point
+ * * Descrtiption - main prints a string to the stdout using puts
+ * * return : Always 0; 
  */
 int main(void)
 {	
