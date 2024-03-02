@@ -2,8 +2,9 @@
 /**
  * main - Entry point
  *
- * using printf to print
- * returns 1 on sucess
+ * Description - using printf to print
+ *
+ * return - main returns 1 on sucess and 0 on failure
  */
 int main(void)
 {
