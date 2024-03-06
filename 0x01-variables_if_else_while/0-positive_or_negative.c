@@ -2,7 +2,12 @@
 #include <stdlib.h>
 #include <time.h>
 
-/* betty style doc for function main goes there */
+/**
+ * main - assign a random number to the variable n each time it is executed
+ *
+ * return: sign of  a number
+ */
+
 int main(void)
 {
 	int n;
@@ -12,12 +17,12 @@ int main(void)
 	
 	/* checking for the value of n */
 	
-	if (n>0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	
 	}
-	else if (n<0)
+	else if (n < 0)
 	{
 		printf("%d is negative\n", n);
 	}
