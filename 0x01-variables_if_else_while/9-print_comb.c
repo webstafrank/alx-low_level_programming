@@ -1,21 +1,19 @@
-/**File: 9-print_comb.c
- * Auth: Franklyn Denish
+#include <stdio.h>
+/**
+ * main - Entry point of the program.
+ * Description: printing single-digits separated by comma and space
+ *
+ * Return: always 0 (success)
  */
 
-#include<stdio.h>
-
-/**this program prints all possible combinations of single digit numbers separated by commas, followed with spaces*/
-
-int main ()
+int main (void)
 {
+	int digit;
 
-	int number;
-
-	for (number=0; number<=9; number++)
+	for (digit = 0; digit <= 9; digit++)
 	{
-		putchar((number%10)+'0');
-		
-		if(number==9)
+		putchar((digit % 10) + '0');
+			if (digit == 9) 
 
 			continue;
 
@@ -23,9 +21,6 @@ int main ()
 
 		putchar(' ');
 	}
-
 	putchar('\n');
-
 	return (0);
-
 }
