@@ -1,16 +1,19 @@
 #include <stdio.h>
+/**
+ * main - Entry point of the program.
+ * Description: main prints alphabets in reverse
+ *
+ * Return: 0 on success
+ */
 
-int main()
+int main(void)
 {
 	char letter;
 
-	/*creating variable of type char and looping thru ther alphabets*/
-
-		for (letter='z'; letter>='a'; letter--)
-					
-			putchar(letter);
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
 		
-		putchar('\n');
+	putchar('\n');
 
 	return (0);
 
