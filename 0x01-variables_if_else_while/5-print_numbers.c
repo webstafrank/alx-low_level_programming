@@ -1,21 +1,19 @@
 #include <stdio.h>
-
-int main()
+/**
+ * main - Entry point of the program.
+ * Description: the funtion prints single numbers of case 10 starting fron 0
+ *
+ *Return: Always 0 (success)
+ */
+int main(void)
 {
-	int n;
+	int n = 0;
 
-	/*initializing an integer and setting the range of loop*/
-
-	for (n=0; n<=9; n++)
-	
-		{
-			printf("%d", n);
-	
-		}
-		
-		putchar('\n');
-			
-	return 0;
-
+	while (n <= 9)
+	{
+		printf("%d", n);
+			n++;
+	}
+	printf("%c", '\n');	
+	return (0);
 }
-	
