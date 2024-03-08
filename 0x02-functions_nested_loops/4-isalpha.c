@@ -1,10 +1,13 @@
 #include "main.h"
+
 /**
  * Description: a function that checks for alphabetic character
+ * prototype: int _isalpha(int c)
  * @arg c
  *
  * return 1 on sucess, 0 on failure
  */
+
 int _isalpha(int c)
 {
 	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
