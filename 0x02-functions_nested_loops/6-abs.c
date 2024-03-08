@@ -1,8 +1,11 @@
 #include "main.h"
 
-/**a function that computes the absolute value of an integer
- *
- * Return: the absolute value of an int or a zero*/
+/**
+ * Description: int_abs prints absolute value of an integer
+ * parameter: int _abs(int)
+ * 
+ * Return: the absolute value of an int or a zero
+ */
 
 int _abs(int c)
 {
@@ -10,7 +13,7 @@ int _abs(int c)
 	{
 		int abs_res;
 
-		abs_res= c*-1;
+		abs_res = c * -1;
 
 		return (abs_res);
 	}
