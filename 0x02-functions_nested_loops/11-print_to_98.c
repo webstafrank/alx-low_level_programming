@@ -1,7 +1,9 @@
 #include "main.h"
+
 /**
  * a function that prints all natural numbers from n to 98, followed by a new line.
  * Prototype: void print_to_98(int n);
+ * parameter: n
  * Numbers must be separated by a comma, followed by a space
  * Numbers should be printed in order
  * The first printed number should be the number passed to your function
@@ -23,5 +25,4 @@ void print_to_98(int j)
 				printf("%d, ", j++);
 			printf("%d\n", j);
 	}
-}	
-	
+}		
